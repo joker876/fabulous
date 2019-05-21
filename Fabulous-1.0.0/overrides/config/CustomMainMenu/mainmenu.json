@@ -1,0 +1,224 @@
+{
+    "images":
+    {
+      "title":
+      {
+          "image" : "mainmenu:black.png",
+          "posX" : -295,
+          "posY" : -185.5,
+          "width" : 180,
+          "height" : 1080,
+          "alignment" : "center"
+      },
+        "title2":
+        {
+            "image" : "mainmenu:modpack.png",
+            "posX" : -285.5,
+            "posY" : -125.5,
+            "width" : 161,
+            "height" : 29.67,
+            "alignment" : "center"
+        }
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture":"mainmenu:longbutton.png",
+            "posX" : -280,
+            "posY" : 2,
+            "width" : 150,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "texture":"mainmenu:longbutton.png",
+            "posX" : -280,
+            "posY" : 24,
+            "width" : 150,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "texture":"mainmenu:longbutton.png",
+            "posX" : -280,
+            "posY" :46,
+            "width" : 150,
+            "height" : 20,
+            "imageWidth": "150",
+            "imageHeight": "20",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+            "text" : "Options",
+            "texture":"mainmenu:longbutton.png",
+            "posX" : -280,
+            "posY" : 90,
+            "width" : 150,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "language":
+        {
+            "text" : "Language",
+            "texture" : "mainmenu:longbutton.png",
+            "posX" : -280,
+            "posY" : 68,
+            "width" : 150,
+            "height" : 20,
+            "imageWidth": "150",
+            "imageHeight": "20",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "texture":"mainmenu:longbutton.png",
+            "hoverTextColor":"-700000",
+            "normalTextColor":"-260000",
+            "posX" : -280,
+            "posY" : 112,
+            "width" : 150,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+      },
+            "labels":
+            {
+                "mojang":{
+                    "text":"Copyright Mojang AB",
+                    "posX":99,
+                    "posY":-13,
+                    "color":-1,
+                    "hoverColor":111111,
+                    "fontSize":0.98,
+                    "alignment":"bottom_left",
+                    "anchor":"middle"
+                },
+                "forge":{
+                    "text":"Minecraft Forge 1.12.2",
+                    "posX":99,
+                    "posY":-33,
+                    "color":-1,
+                    "hoverColor":111111,
+                    "fontSize":0.98,
+                    "alignment":"bottom_left",
+                    "anchor":"middle"
+                },
+                "modsloaded":{
+                    "text":"#modsloaded# Mods Loaded",
+                    "posX":99,
+                    "posY":-23,
+                    "color":-1,
+                    "hoverColor":111111,
+                    "fontSize":0.98,
+                    "alignment":"bottom_left",
+                    "anchor":"middle"
+                },
+                "modpack":{
+                    "text":"joker876 Presents Automated",
+                    "posX":99,
+                    "posY":-43,
+                    "color":-1,
+                    "hoverColor":111111,
+                    "fontSize":0.98,
+                    "alignment":"bottom_left",
+                    "anchor":"middle"
+                },
+                "newsLine1":{
+                    "text":"",
+                    "posX":-140,
+                    "posY":5,
+                    "color":-1,
+                    "hoverColor":-1,
+                    "fontSize":0.98,
+                    "alignment":"top_right"
+                },
+                "newsLine2":{
+                    "text":"",
+                    "posX":-140,
+                    "posY":19,
+                    "color":-1,
+                    "hoverColor":-1,
+                    "fontSize":1.0,
+                    "alignment":"top_right"
+                },
+                "newsLine3":{
+                    "text":"",
+                    "posX":-140,
+                    "posY":33,
+                    "color":-1,
+                    "hoverColor":-1,
+                    "fontSize":1.0,
+                    "alignment":"top_right"
+                }
+            },
+            "other":
+            {
+                "background":
+                {
+                    "image" : "",
+                    "slideshow" :
+                    {
+                        "images" :
+                        [
+                          "mainmenu:images/desert.png",
+                          "mainmenu:images/forest.png",
+                          "mainmenu:images/redwood.png",
+                          "mainmenu:images/underwater.png",
+                          "mainmenu:images/bamboo.png",
+                          "mainmenu:images/fields.png",
+                          "mainmenu:images/flowers.png",
+                          "mainmenu:images/forest2.png",
+                          "mainmenu:images/glade.png",
+                          "mainmenu:images/lake.png",
+                          "mainmenu:images/lake2.png",
+                          "mainmenu:images/lake3.png",
+                          "mainmenu:images/lavender.png",
+                          "mainmenu:images/plains.png",
+                          "mainmenu:images/small_glade.png"
+                        ],
+                        "displayDuration" : 600,
+                        "fadeDuration" : 40,
+                        "shuffle" : true
+                    }
+                }
+            }
+        }
+    }
+}

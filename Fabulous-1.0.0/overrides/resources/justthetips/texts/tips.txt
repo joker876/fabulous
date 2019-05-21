@@ -1,0 +1,16 @@
+Never dig straight down.
+Signs and ladders stop the flow of liquids.
+Blazes hate snowballs.
+You only need two buckets of water to create an infinite water source.
+Crouching on blocks will stop you from falling off.
+Can't figure out how to get an item? Check JEI. It may have your answer.
+Use F7 to see the light levels on the ground and F9 to see the chunk borders.
+Break your grave to retrieve your items.
+Holding the Drawer Key in your off-hand will automatically lock a newly placed Storage Drawer.
+Use grave (~) key to Vein Mine.
+Crafting Station is a cooler Crafting Table.
+Use Better Crafting Table to automate crafting!
+Use Iron Rod to mine blocks using pistons.
+The world generates in a logical heat map. Need snow or a desert? Travel North or South until you find it!
+Craft The One Probe to see what you are looking at.
+Use Antique Atlas to map your world.

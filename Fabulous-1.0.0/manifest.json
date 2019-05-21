@@ -1,0 +1,18 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2836",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Fabulous",
+  "version": "1.0.0",
+  "author": "joker876PL",
+  "files": [],
+  "overrides": "overrides"
+}
